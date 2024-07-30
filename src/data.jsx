@@ -1,0 +1,442 @@
+import { nanoid } from "nanoid";
+import img1 from "./assets/hero1.png";
+import img2 from "./assets/hero2.png";
+import img3 from "./assets/hero3.png";
+import img4 from "./assets/hero4.png";
+import img5 from "./assets/hero5.png";
+import gs_212 from './assets/gs-218.png'
+import pr1 from './assets/product1.png'
+import pr2 from './assets/product2.png'
+
+
+
+export const heroImages = [
+  {
+    id: nanoid(),
+    img: img3,
+  },
+  {
+    id: 2,
+    img: img2,
+  },
+  {
+    id: 3,
+    img: img4,
+  },
+  {
+    id: 4,
+    img: img1,
+  },
+  {
+    id: 5,
+    img: img5,
+  },
+];
+export const products = [
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-201",
+    overAllSize: "15 X 12 X 7",
+    Bowl_size: "13 X 10",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "6000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr1,
+    model: "gs-202",
+    overAllSize: "14 X 16 X 7",
+    Bowl_size: "14 X 12",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "6300/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-203",
+    overAllSize: "14 X 16 X 8",
+    Bowl_size: "14 X 14",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "6600/-",
+  },
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-204",
+    overAllSize: "18 X 16 X 9",
+    Bowl_size: "16 X 14",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "7000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr1,
+    model: "gs-205",
+    overAllSize: "18 X 18 X 9",
+    Bowl_size: "16 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "7300/-",
+  },
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-206",
+    overAllSize: "21 X 18 X 9",
+    Bowl_size: "19 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "7600/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-207",
+    overAllSize: "24 X 18 X 9",
+    Bowl_size: "22 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "8000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-208",
+    overAllSize: "27 X 18 X 9",
+    Bowl_size: "25 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "9500/-",
+  },
+  {
+    id: nanoid(),
+    img: pr1,
+    model: "gs-208",
+    overAllSize: "30 X 18 X 9",
+    Bowl_size: "28 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "10000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-210",
+    overAllSize: "30 X 18 X 9",
+    Bowl_size: "21 X 14",
+    small_Bowl: "6 X 7",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "20000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-211",
+    overAllSize: "32 X 18 X 9",
+    small_size: "30 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "10500/-",
+  },
+  {
+    id: nanoid(),
+    img: pr1,
+    model: "gs-212",
+    overAllSize: "32 X 18 X 9",
+    Bowl_size: "32 X 16",
+    small_size: "10 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "22000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-213",
+    overAllSize: "32 X 18 X 9",
+    Bowl_size: "32 X 16",
+    small_size: "17 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "14000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-214",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "17 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "15000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr1,
+    model: "gs-215",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "21 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "16000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-216",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "17 X 16",
+    small_size: "17 X 16",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "16000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-217",
+    overAllSize: "40 X 20 X 9",
+    Bowl_size: "24 X 18",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "21000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr1,
+    model: "gs-218",
+    overAllSize: "45 X 20 X 9",
+    Bowl_size: "21 X 17.7",
+    small_size: "21 X 17.7",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "26000/-",
+  },
+  {
+    id: nanoid(),
+    img: pr2,
+    model: "gs-218",
+    overAllSize: "45 X 20 X 9",
+    Bowl_size: "21 X 17.7",
+    small_size: "21 X 17.7",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "26000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-218",
+    overAllSize: "45 X 20 X 9",
+    Bowl_size: "21 X 17.7",
+    small_size: "21 X 17.7",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "26000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-219",
+    overAllSize: "45 X 20 X 9",
+    Bowl_size: "15 X 18",
+    small_size: "15 X 18",
+    finish: "Satin",
+    grade: "AISI 204 Quality",
+    price: "25000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-301",
+    overAllSize: "45 X 20 X 9",
+    Bowl_size: "15 X 18",
+    finish: "Satin",
+    grade: "AISI 304 Quality",
+    price: "25000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-302",
+    overAllSize: "21 X 18 X 9",
+    Bowl_size: "19 X 16",
+    finish: "Satin",
+    grade: "AISI 304 Quality",
+    price: "10000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-303",
+    overAllSize: "24 X 18 X 9",
+    Bowl_size: "22 X 16",
+    finish: "Satin",
+    grade: "AISI 304 Quality",
+    price: "11000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-304",
+    overAllSize: "30 X 18 X 9",
+    Bowl_size: "28 X 16",
+    finish: "Satin",
+    grade: "AISI 304 Quality",
+    price: "15000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-305",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "21 X 16",
+    finish: "Satin",
+    grade: "AISI 304 Quality",
+    price: "19000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-306",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "17 X 16",
+    small_size: "17 X 16",
+    finish: "Satin",
+    grade: "AISI 304 Quality",
+    price: "20000/-",
+  },
+];
+
+export const pvd = [
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-251",
+    overAllSize: "21 X 18 X 9",
+    Bowl_size: "19 X 16",
+    finish: "PVD Coating",
+    price: "12000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-252",
+    overAllSize: "24 X 18 X 9",
+    Bowl_size: "22 X 16",
+    finish: "PVD Coating",
+    price: "13000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-253",
+    overAllSize: "30 X 18 X 9",
+    Bowl_size: "28 X 16",
+    finish: "PVD Coating",
+    price: "18000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-254",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "21 X 16",
+    finish: "PVD Coating",
+    price: "22000/-",
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "gs-255",
+    overAllSize: "37 X 18 X 9",
+    Bowl_size: "17 X 16",
+    finish: "PVD Coating",
+    price: "24000/-",
+  },
+];
+
+
+export const quartz = [
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLVO GS-802",
+    overAllSize: "21 X 18 X 9",
+    Granite : '5500/-',
+    metalic: "6000/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "TRINITY GS-802",
+    overAllSize: "21 X 18 X 9",
+    Granite : '7700/-',
+    metalic: "8200/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLCANO GS-802",
+    overAllSize: "24 X 18 X 8",
+    Granite : '8000/-',
+    metalic: "8600/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLCANO GS-804",
+    overAllSize: "34 X 20 X 8",
+    Granite : '15000/-',
+    metalic: "16000/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLCANO GS-805",
+    overAllSize: "36 X 18 X 8",
+    Granite : '14000/-',
+    metalic: "15000/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLCANO GS-805",
+    overAllSize: "37 X 20 X 8",
+    Granite : '16000/-',
+    metalic: "17000/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLCANO GS-807",
+    overAllSize: "45 X 19.5 X 8.9",
+    Granite : '17000/-',
+    metalic: "18000/-"
+    
+  },
+  {
+    id: nanoid(),
+    img: gs_212,
+    model: "VOLCANO GS-808",
+    overAllSize: "37 X 20 X 8",
+    Granite : '18000/-',
+    metalic: "19000/-"
+    
+  },
+
+];
+
+
